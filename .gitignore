@@ -46,3 +46,15 @@ Thumbs.db
 .angular
 .yaml
 .yml
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Runtime logs
+*.log
+error.log
